@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <link rel="stylesheet" href="mysite.css">
+
+  <title>Обмен валют</title>
+ </head>
+ <body>
+  <h1>Выберите Валюту</h1>
+  <!-- Комментарий -->
+  <select id="convfor" onchange="moneyConvert()">
+        <option value="USD">USD - доллар</option>
+        <option value="UAH">UAH - гривна</option>
+        <option value="EUR">EUR - евро</option>
+  </select>
+  <select id="convin" onchange="moneyConvert()">
+        <option value="USD">USD - доллар</option>
+        <option value="UAH">UAH - гривна</option>
+        <option value="EUR">EUR - евро</option>
+  </select>
+    
+    <p>Введите Сумму.</p>
+    <input type="number" id="sum" oninput="moneyConvert()" onchange="moneyConvert()">
+    
+    <p>Результат.</p>
+     <span id="result"></span>
+     <script src="code.js"></script>
+ 
+ </body>
+</html>
