@@ -43,3 +43,10 @@ function avarageOf2many(arr){
     var sr = sum/k; 
     return sr;
 }
+function testWork(age,experience){
+    if (age<50 && age>22 && experience == true ) {
+        return true;
+    }else{
+        return false;
+    }
+}
