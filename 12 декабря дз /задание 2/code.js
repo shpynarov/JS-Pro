@@ -22,8 +22,5 @@ var obj = {
 
 }
 
-function iterate(obj){
-	for(var key in obj){
-	  	obj.increaseSelary(key);
-	}
-}
+
+obj.increaseSelary(key);
