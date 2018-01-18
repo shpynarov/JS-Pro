@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+.timeStyle{
+	text-align: center;
+	font-size: 120px;
+	font-family: 'Trebuchet MS',sans-serif;
+	font-weight: bold;
+	padding-top: 25%;	
+}
+.timeStyle p{
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+#timeDivMain{
+	height: 100%;
+}
+.bkg_morning{	
+	background-color: #FFFF00;
+}
+.bkg_daytime{
+	background-color: #FF4500;
+}
+.bkg_evening{
+	background-color: #BDB76B;
+}
+.bkg_night{
+	background-color: #191970;
+	color:#FFF;
+}
+

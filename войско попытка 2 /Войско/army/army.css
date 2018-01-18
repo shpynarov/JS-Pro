@@ -1,0 +1,35 @@
+#wrapper .resource {
+    float: left;
+    text-align: center;
+}
+
+.resource .health,
+.resource .stamina {
+    position: relative;
+}
+
+.resource .health .bar-color {
+    background-color: red;
+}
+
+.resource .health .bar-info, .resource .stamina .bar-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resource .stamina div {
+    background-color: brown;
+}
+.land{
+    height: 600px;
+    width: auto;
+    background-color: aqua;
+}
+.listofwarriors{
+    margin: 20px;
+    height: 100px;
+    width: auto;
+    background-color: aquamarine;
+}
